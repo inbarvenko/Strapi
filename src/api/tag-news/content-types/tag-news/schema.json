@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new",
+  "info": {
+    "singularName": "tag-news",
+    "pluralName": "new",
+    "displayName": "news",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "sport",
+        "politic"
+      ]
+    },
+    "main": {
+      "type": "dynamiczone",
+      "components": [
+        "news-dynamic-zones.name"
+      ],
+      "required": true
+    }
+  }
+}

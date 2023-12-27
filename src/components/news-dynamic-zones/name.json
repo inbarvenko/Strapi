@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_news_dynamic_zones_names",
+  "info": {
+    "displayName": "content",
+    "description": "",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

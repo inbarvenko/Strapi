@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_news_dynamic_zones_images",
+  "info": {
+    "displayName": "image",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
